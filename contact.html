@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Info</title>
+</head>
+
+<body>
+    <h1>E-mail:</h1>
+    <h2>visheshupreti32@gmail.com</h2>
+    <hr width="3">
+    <h3>Plz Fill Up this Form For The Contact Request To Be Generated</h3>
+    <form action="mailto:visheshupreti@gmail.com" target="_blank" method="post" autocomplete="on" name="Contact Request" enctype="text/plain">
+        <label for="fname">Enter Your Name:</label><br>
+        <input type="text" id="fname" name="Fname" placeholder="John" required><br>
+        <label for="E-mail Id">Enter Your E-mail Id:</label><br>
+        <input type="email" id="E-mail Id" name="E-mail Id" placeholder="abc@gmail.com" required><br>
+        <label for="Car">Do you Have a Car:</label><br>
+        <input type="radio" id="Yes" name="Option" value="Yes" required>
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="No" name="Option" value="No" required>
+        <label for="No">No</label><br>
+        <label for="CarType">Select The Car From the list:</label><br>
+        <select id="CarType" name="CarType">
+            <option value="i10">I10</option>
+            <option value="Fortuner">Fortuner</option>
+            <option value="Innova">Innova</option>
+            <option value="Xylo">Xylo</option>
+        </select><br>
+        <label for="Colour">Choose the Colour of Your Car</label><br>
+        <input type="color" id="Colour" name="Colour" required><br>
+        <label for="response">Write Two words for YourSelf:</label><br>
+        <textarea name="YourSelf" id="response" cols="30" rows="10" placeholder="Write in this empty space"></textarea><br><br>
+        <input type="button" onclick="alert('🖕 Chal Ab Aage ka Form Bhar')" value="Click ME!"><br><br>
+        <label for="photo">Upload Any Image You Want</label><br><br>
+        <input type="file" id="file" name="File"><br><br>
+        <input type="submit" value="Submit Details">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+
+</html>
